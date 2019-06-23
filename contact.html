@@ -1,15 +1,69 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8" />
-    <title></title>
-  </head>
-  <body>
-    <header>
-      <h1>Richard Taing</h1>
-      <h2>About</h2>
-      <h2>Portfolio</h2>
-      <h2>Contact</h2>
-    </header>
-  </body>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Contact</title>
+  <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+</head>
+
+<body>
+
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Richard Taing</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="Name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Richard Taing" required="required">
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" placeholder="example@gmail.com" required="required">
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit" name="submit">
+      </form>
+
+    </section>
+
+    <section class="sidebar">
+      <div id="connec">
+        <h2>Connect With Me</h2>
+        <img src="assets/images/Linkedin.png" class="social" alt="Linkedin">
+        <img src="assets/images/Facebook.png" class="social" alt="Facebook">
+        <img src="assets/images/instagram.png" class="social" alt="Instagram">
+      </div>
+
+    </section>
+    <footer>
+      <div class="container">
+        &copy; Copyright 2019 Richard Taing
+      </div>
+    </footer>
+</body>
+
 </html>
