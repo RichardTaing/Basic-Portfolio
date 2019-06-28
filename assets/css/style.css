@@ -204,12 +204,12 @@ textarea {
   padding: 0 10px;
   font-size: 14px;
   border: 1px solid #dddddd;
-  background: url("../images/yellow-pad");
+  background: url("../images/yellow-pad.jpg");
 }
 
 textarea {
   height: 200px;
-  background: url("../images/yellow-pad");
+  background: url("../images/yellow-pad.jpg");
 }
 
 input[type="submit"] {
